@@ -7,6 +7,8 @@ def main():
     for num, amount in sorted(results_dict.items(), key=lambda x: x[1], reverse=True):
         print("{} apppeared {} numbers of times".format(num, amount))
 
+# Input : Type (list(int)), Takes in a list of numbers
+# Return : Type (dict{}), Returns a dictionary with frequency of integers
 def int_freq(int_array):
     freq_dict = {}
 
@@ -18,6 +20,8 @@ def int_freq(int_array):
 
     return freq_dict
 
+# Input : Type (), Nothing
+# Return : Type (list(int)), Returns a List of integers 
 def int_array_gen():
     # 32bit limit 2147483647
     data_size = 100000
