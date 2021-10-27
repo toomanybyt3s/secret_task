@@ -1,1 +1,1 @@
-web: hypercorn main:app --log--file=-
+web: uvicorn main:app --log--file=-
